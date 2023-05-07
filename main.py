@@ -18,14 +18,7 @@ def hello_flask():
 def get_insurance_charges():
     if request.method =="GET":
         print("We are in a GET Method")
-        #data=request.form
-        #print("Data--->\n",data)
-        # age=eval(data["age"])
-        # sex=data["sex"]
-        # bmi=eval(data["bmi"])
-        # children=eval(data["children"])
-        # smoker=data["smoker"]
-        # region=data["region"]
+       
 
 
         age=int(request.args.get("age"))
